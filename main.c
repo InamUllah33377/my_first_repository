@@ -125,6 +125,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  //This file is just uploaed for GitHub famaliarization.
 	  if (Check_Button == Button_Pressed)
 	  {
 		  HAL_GPIO_WritePin(REDLED_GPIO_Port, REDLED_Pin, SET);
